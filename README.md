@@ -16,7 +16,7 @@ How to run?
 STEPS:
 Clone the repository
 
-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project
+https://github.com/anuragshrikhandkar/End-To-End-Kidney-Disease-Classification-Deep-Learning-Project
 STEP 01- Create a conda environment after opening the repository
 conda create -n cnncls python=3.8 -y
 conda activate cnncls
@@ -37,16 +37,16 @@ mlflow ui
 dagshub
 dagshub
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
-MLFLOW_TRACKING_USERNAME=entbappy
+MLFLOW_TRACKING_URI=
+MLFLOW_TRACKING_USERNAME=
 MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
 python script.py
 
 Run this to export as env variables:
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
+export 
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=
 
 export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
 DVC cmd
